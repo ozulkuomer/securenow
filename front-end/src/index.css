@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,900;1,600&display=swap');
+body {
+  margin: 0;
+  font-family: 'Nunito', 'Oxygen', 'Segoe UI', 'Roboto',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.avatar-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.avatar-container .avatar {
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.avatar-container h1 {
+ color: whitesmoke;
+}
+
+
+.login-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-container form .row{
+  display: flex;
+  align-self: stretch;
+  justify-content: space-between;
+  gap:1rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.login-container form .row button{
+  width: 10rem;
+  height: 2rem;
+
+}

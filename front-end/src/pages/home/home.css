@@ -1,0 +1,55 @@
+.card
+{
+    min-height: 200px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow:  0 0 10px 1px rgba(150,150,150,0.42);
+    padding: calc(var(--base_padding)*2);
+}
+
+.time_line_flow
+{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: calc(var(--base_padding)*4);
+}
+
+.status
+{
+    margin-bottom: calc(var(--base_padding)*6);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: calc(var(--base_padding)*2);
+}
+.status textarea
+{
+    margin-bottom: calc(var(--base_padding)*6);
+    border-radius: 28px;
+    border: none;
+    background-color: #F0F2F5 ;
+    resize: none;
+    padding: 20px;
+
+}
+
+.button
+{
+    background-color: #304A93;
+    border-radius: 28px;
+    height: 2rem;
+    align-self: flex-end;
+    font-weight: 600;
+    padding: calc(var(--base_padding)*1) calc(var(--base_padding)*6);
+    color: #F3F3F7;
+    border:none;
+}
+.button:hover
+{
+    background-color: #3052af;
+}
+.button:active
+{
+    background-color: #8091be;
+}

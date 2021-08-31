@@ -1,0 +1,73 @@
+:root {
+    --background-color: #F3F3F7;
+    --base_padding: 8px;
+}
+
+.layout_root{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: var(--background-color);
+}
+
+.layout_root header
+{
+    background-color: #304A93;
+    background-image: linear-gradient(to right,#304A93, #3E488D);
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.layout_root main
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.content_box
+{
+    max-width: 1440px;
+    width: 100%;
+}
+
+.page_header
+{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    width: 100%;
+}
+
+.page_body
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: flex-start;
+    width: 100%;
+    padding-top: calc(var(--base_padding) * 4);
+    gap: calc(var(--base_padding) * 4);
+}
+
+.brand
+{
+    color: #ffffff;
+    font-weight: 900;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+}
+
+.user_card
+{
+    height: 500px;
+    background-color: #4053A3;
+    background-image: linear-gradient(to right, #4053A3, #3E53A5);
+    border-radius: 8px;
+    box-shadow: inset 10px -20px 30px 0px rgba(0,0,0,0.1), 0 0 10px 1px rgba(150,150,150,0.42);
+
+}
